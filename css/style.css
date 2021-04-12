@@ -31,6 +31,8 @@ h1,h2,h3,p{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	font-family: 'Raleway', sans-serif;
+    
 }
 
 
@@ -177,6 +179,25 @@ h1,h2,h3,p{
 		-moz-transition:  0.3s ease;;
 		-o-transition:  0.3s ease;;
 		transition:  0.3s ease;
+	}
+
+	input[type="text"]
+	{
+    font-size:3vh;
+	font-weight:800;
+	color: #1A095E;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	}
+
+	#input_group
+	{
+		text-align: center;
+		/*padding-top: 2vh;
+		padding-left: 5vh;*/
+		margin-top: 1.7vh;
+		margin-left: 6vh;
+		
 	}
 	
 }
