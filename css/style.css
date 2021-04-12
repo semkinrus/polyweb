@@ -152,6 +152,7 @@ h1,h2,h3,p{
 		-moz-transition:  0.2s ease-in-out;;
 		-o-transition:  0.2s ease-in-out;;
 		transition:  0.2s ease-in-out;
+		appearance: none;
 	}
 	
 	#svg_icon{
@@ -188,16 +189,16 @@ h1,h2,h3,p{
 	color: #1A095E;
 	text-overflow: ellipsis;
 	text-transform: uppercase;
+
 	}
 
 	#input_group
 	{
 		text-align: center;
-		/*padding-top: 2vh;
-		padding-left: 5vh;*/
 		margin-top: 1.7vh;
 		margin-left: 6vh;
-		
+		border:none; 
+		outline:none;
 	}
 	
 }
